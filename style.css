@@ -1,0 +1,486 @@
+@import url("screen.css");
+
+/************************* DEFAULT STYLES ***************************/
+body {
+    color: #212121;
+    background: #ffffff;
+    font-family:"helvetica", Arial, sans-serif;}
+
+.container-inner {
+    width:950px;
+    margin:0 auto;}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #000000;
+    font-family:"helvetica", Arial, sans-serif;}
+
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {color:#ff0000;}
+
+a {
+    color:#ff0000;
+    text-decoration:none;}
+
+a:hover, a:focus {color:#222222;}
+
+/************************* RSS ************************************/
+#inside-subscribe {
+    float:right;
+    color: #666666;}
+
+#inside-subscribe a {color: #666666;}
+
+#inside-subscribe a:hover {color: #000000;}
+
+.feed {
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: url("rss.png") no-repeat 0 50%;
+    color: #ededed;}
+
+#inside-widgets {margin:4em 0;}
+
+#inside-widgets h6.widgettitle {
+    color: #212121;
+    border-bottom:1px solid #cccccc;
+    text-transform:uppercase;
+    padding:1em .3em .5em;}
+
+#inside-widgets ul{
+    list-style:none;
+    margin:0 0 1.6em 0;
+    font-size:1em;}
+
+#inside-widgets ul li a,ul.txt li{
+    color: #212121;
+    height:1%;
+    background:url(li.png) no-repeat  0;
+    line-height:1.2em;
+    border-bottom:1px solid #cccccc;
+    display:block;
+    padding:6px 0 6px 8px;}
+
+#inside-widgets ul li a:hover,ul.txt li:hover{
+    color: #ffffff;
+    background-size: 3px 10px;
+    background-repeat: no-repeat;
+    background-position: 3px 10px;
+    background-image: url(li-white.png);
+    background-color: #212121;
+    background-size: 3px 10px;
+}
+
+#inside-widgets ul li a span,ul.txt li,h4 a span{color:#696455;}
+
+#inside-widgets ul li.active a{
+    cursor:default;
+    color:white;}
+
+#inside-widgets ul ul{
+    margin:0;
+    list-style:none;}
+
+/************************* SLIDESHOW ******************************/
+#slideshow-posts { margin:1em 0}
+
+ul#slideshow-nav {
+    float:right;
+    margin: .5em 0;
+    padding: 0}
+
+ul#slideshow-nav a {
+    padding:5px 9px;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius: 12px;
+    background: #dbdbdb;
+    color: #ffffff;
+    margin:0 12px 0 0;}
+
+ul#slideshow-nav a.activeSlide,ul#slideshow-nav a:hover { background: #a8a8a8; }
+
+.slide {
+    padding: 0;
+    margin: 0;
+    display:block;
+    overflow:hidden;
+    position:relative;
+    width:950px;
+    height:425px;}
+
+.slide .slide-image {
+    width:950px;
+    float:right;}
+
+.slide .slide-image img {max-width:950px;}
+
+* html .slide-image img {width:950px;}
+
+.slide .slide-image img.attachment-950x425 {
+    margin:0;
+    padding:0}
+
+.slide .slide-details {
+    width:310px;
+    float:right;
+    margin-left:10px;
+    padding: 2em;
+    background: transparent url('overlay.png');
+    position:absolute;
+    top:20px;
+    right:20px}
+
+.slide .slide-details h2 {
+    text-transform:uppercase;
+    border-bottom:1px solid #ffffff;
+    color: #ffffff;
+    font-weight:normal;
+    margin:0;}
+
+.slide .slide-details .description p {
+    color: #ededed;
+    margin-top:10px;
+    font-size:1.1em}
+
+.slide a {color: #ffffff}
+
+.slide a:hover {color: #ededed}
+
+/************************* MASTHEAD ************************************/
+.pusher {cursor:pointer;}
+
+#masthead h4 {
+    margin:1em 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    width:100%;}
+
+#masthead h4 a {
+    color: #333333;
+    text-decoration: none;
+    float:left;}
+
+#masthead h4 a:hover {color:#000000;}
+
+#masthead span {
+    color:#666;
+    font-size:.8em;
+    text-transform:lowercase;
+    font-weight:normal;}
+
+#masthead span.description {
+    float:left;
+    margin-left: 20px;
+    padding-top:.2em;}
+
+#masthead span.contact {
+    float:right;
+    line-height:1em;}
+
+#masthead span.contact a:hover {color:#000000;}
+
+#navcontainer {
+    padding: 0;
+    font-family:"helvetica", Helvetica, Arial, sans-serif;
+    text-align: right;
+    background-color: #212121;
+    height:40px;
+    margin:1em 0 1em;}
+
+#navlist {height:40px}
+
+#navcontainer p	{
+    padding: 7px 7px 0px;
+    font-family:"helvetica", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    font-weight: bold;}
+/* to stretch the container div to contain floated list */
+#navcontainer:after {
+    content: ".";
+    display: block;
+    line-height: 1px;
+    font-size: 1px;
+    color: transparent;
+    clear: both;}
+
+#navcontainer img {
+    margin: 0;
+    padding: 0;}
+
+ul#navlist {
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    background-color: #222222;
+    font-size: 1em;}
+
+ul#navlist li {
+    text-align: left;
+    float: left;
+    height: 40px;
+    margin: 0;
+    background: #222;
+    border-right:1px solid #666666;
+    padding: 0;}
+
+ul#navlist li {
+    width: 105px;
+    voice-family: "\"}\"";
+    voice-family:inherit;
+    width: 119px;}
+
+html&gt;body ul#navlist li { width: 119px; }
+
+ul#navlist li a {
+    display: block;
+    padding: 7px 5px 25px 7px;
+    color: #a8a8a8;
+    font-size: 11px;
+    text-decoration: none;
+    height: 1%;
+    height:40px;
+    text-shadow: 0 0 0 #000000;}
+
+#navcontainer&gt;ul#navlist li a {
+                     width: auto;
+                     height: auto;
+                     height: 8px}
+
+ul#navlist li#active a {
+    background: #eeeeee;
+    color: #222222;}
+
+ul#navlist li a:hover,ul#navlist li#active a:hover {
+    color: #ffffff;
+    background-color: #0f0f0f;}
+
+ul#navlist li.home	{border-left: none;}
+
+ul#navlist li#empty	{width: 120px;}
+
+/********************************POSTS ************************* */
+.post {
+    display:block;
+    clear:both;}
+
+.postmetadata {color: #cccccc;}
+
+.postmetadata a {color:#cccccc;}
+
+.postmetadata a:hover {color:#000000;}
+
+.underlined {border-bottom:1px solid #000000;}
+
+h6.underlined {margin:0 0 1em;}
+
+.nav-image-left, .nav-image-up, .nav-image-right {
+    text-align:center;
+    float:left;
+    width:25px;
+    margin:0 0px 0 2px;}
+
+.nav-image-left a, .nav-image-up a, .nav-image-right a {
+    background:#eee;
+    padding:2px 48% 2px 48%;
+    text-decoration:none;color:#000;}
+
+.nav-image-left a:hover, .nav-image-up a:hover, .nav-image-right a:hover {
+    background:#000;
+    color:#fff;}
+
+.nav {
+    background: #ededed;
+    margin:0 0 1em 0;}
+
+.nav:hover {background: #cccccc;}
+
+.prev a, .next a {
+    color: #000000;
+    text-decoration:none;
+    padding:.2em 1em;}
+
+.nav-interior {
+    margin:0;
+    padding:0;
+    clear:both;
+    display:inline;}
+
+.nav-interior .next {
+    color: #000000;
+    text-decoration:none;
+    float:right;}
+
+.nav-interior .prev {
+    color: #000000;
+    text-decoration:none;
+    float:left;}
+
+/* ************************* FOOTER *********************** */
+#footer {
+    margin:1em 0 0;
+    background:#fff;
+    padding:1em;
+    float:center}
+
+#footer p {
+    text-align:center;
+    color:#ccc;}
+
+#footer a {
+    color: #666666;}
+
+#footer a:hover {
+    color: #333333;}
+
+/* ************************ SLIDESHOW ********************************/
+ul#portfolio {
+    padding-top: 10px;/*tying px, but maybe em will work better */
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    list-style:none;
+    margin:0 0 1em;
+    overflow:hidden;
+    max-height:435px;}
+
+ul#portfolio li {
+    list-style-type: none;
+    list-style-image: none;
+    padding:0;}
+
+ul#portfolio li h4 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: .5em;
+    text-transform:uppercase;padding:0 16px;}
+
+ul#portfolio li img {
+    width:950px;
+    text-align:center;
+    margin:0;}
+
+/* **************************** FLOATS &amp; IMAGES ***************************** */
+.right {float: right;}
+
+.left {float: left;}
+
+.logo {
+    float: left;
+    height: 100px;}
+
+.middle {
+    margin: 0 auto;
+    float:left;}
+
+.clear {clear: both;}
+
+img.centered{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+img.alignright{
+    padding: 4px;
+    margin: 3px 0 2px 10px;
+    display: inline;}
+
+img.alignleft{
+    padding: 4px;
+    margin: 3px 10px 2px 0;
+    display: inline;}
+
+.alignleft{float: left;}
+
+.alignright{float: right;}
+
+.thumbnail {
+    width:310px;
+    height:150px;
+    background: #ededed url('x.png') no-repeat center;
+    max-width:310px;
+    max-height:150px;
+    overflow:hidden;}
+
+/***************************** ARCHIVE *****************************/
+h6.archive-header {
+    display:block;
+    border-bottom: #000000 1px solid;
+    margin:0 0 .5em;}
+
+.archive-stack {
+    width:100%;
+    height:1em;}
+
+/***************************** ETC *****************************/
+#filters {
+    clear: both;
+    height: 2em;
+    margin-bottom: 1em;}
+
+#filters li {
+    float: left;
+    margin-right: 2em;}
+
+.prev {}
+
+.next {}
+/* remember to define focus styles! */
+:focus {outline: 0;}
+
+/***************************** SEARCH *****************************/
+#search {
+    float: right;
+    margin:15px 0 0;}
+
+#search #s {
+    background: transparent url('search.gif') 0px center no-repeat;
+    color: #666;font-size: 0.9em;
+    margin:0 0 0 10px;
+    padding: 2px 0 2px 17px;
+    width: 100px;}
+
+#search input {border:1px solid #222;}
+
+#search #s:hover {color: #666;}
+
+.search-excerpt {margin: 0;}
+
+/***************** COMMENTS ********************/
+h3#comments{
+    margin: 10px 0 0;
+    padding: 20px 10px;
+    background: #f5f5f5;}
+
+h3#comments span.comments-subscribe {
+    float:right;
+    font-size:.7em;
+    margin-left: 3px;
+    padding: 0 0 0 19px;
+    background: url("rss.png") no-repeat 0 50%;
+    color:#cccccc;}
+
+h3#respond{
+    margin: 10px 0 0;
+    padding: 20px 10px;
+    background: #f5f5f5;}
+
+ol.commentlist{
+    list-style-type: none;margin: 0;
+    padding: 0;
+    border-top: 5px solid #eeeeee;}
+
+ol.commentlist li strong{padding-left:1em;}
+
+ol.commentlist li .comment-entry{
+    margin: -135px 0 0;border-bottom: 5px solid #eeeeee;
+    padding: 5px 150px 0;line-height: 2em;}
+
+ol.commentlist li .avatar{
+    border:1px solid #eeeeee;
+    padding:1em;
+    margin:2em 1em 1em 0;}
+
+#commentform{
+    margin: 0 0 7px;padding: 30px 150px 6px;
+    border-top: 10px solid #ffffff;
+    background: #eeeeee;}
