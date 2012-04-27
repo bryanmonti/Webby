@@ -4,6 +4,30 @@
 <head>
     <title>Mobile ReplicatorG - Porting ReplicatorG to Android</title>
 
+    <!--Style Sheets-->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print"/>
+    <link rel="stylesheet" id="contact-form-7-css"  href="css/styles.css" type="text/css" media="all" />
+
+    <!--JavaScript + jQuery -->
+    <script type='text/javascript' src='scripts/jquery.js'></script>
+    <script type='text/javascript' src='scripts/jquery.cycle.js'></script>
+
+    <!--Oy, let's toss this in-->
+    <link rel='index' title='Labs' href='index.html'/>
+
+    <!--Turn script below into a file, if possible -->
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery("#slideshow-posts").cycle({
+                fx:      "fade",
+                timeout:  4000,
+                prev:    "#prev",
+                next:    "#next"
+
+            });
+        });
+    </script>
 </head>
 <body>
 
