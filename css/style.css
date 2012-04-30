@@ -165,18 +165,34 @@ ul#slideshow-nav a.activeSlide,ul#slideshow-nav a:hover { background: #a8a8a8; }
     color:#666;
     font-size:.8em;
     text-transform:lowercase;
-    font-weight:normal;}
+    font-weight:normal;
+}
 
 #masthead span.description {
     float:left;
     margin-left: 20px;
-    padding-top:.2em;}
+    padding-top:.2em;
+}
+
+#masthead span.descriptionB {
+    float:left;
+    margin-left: 20px;
+    padding-top:.4em;
+}
 
 #masthead span.contact {
     float:right;
-    line-height:1em;}
+    line-height:1em;
+}
 
 #masthead span.contact a:hover {color:#000000;}
+
+#masthead span.github {
+    float:right;
+    line-height:1em;
+}
+
+#masthead span.github a:hover {color:#000000}
 
 #navcontainer {
     padding: 0;
