@@ -174,25 +174,10 @@ ul#slideshow-nav a.activeSlide,ul#slideshow-nav a:hover { background: #a8a8a8; }
     padding-top:.2em;
 }
 
-#masthead span.descriptionB {
-    float:left;
-    margin-left: 20px;
-    padding-top:.4em;
-}
-
 #masthead span.contact {
     float:right;
     line-height:1em;
 }
-
-#masthead span.contact a:hover {color:#000000;}
-
-#masthead span.github {
-    float:right;
-    line-height:1em;
-}
-
-#masthead span.github a:hover {color:#000000}
 
 #navcontainer {
     padding: 0;
@@ -244,7 +229,7 @@ ul#navlist li {
     voice-family:inherit;
     width: 119px;}
 
-html&gt;body ul#navlist li { width: 119px; }
+html>body .ul#navlist li { width: 119px; }
 
 ul#navlist li a {
     display: block;
@@ -256,7 +241,7 @@ ul#navlist li a {
     height:40px;
     text-shadow: 0 0 0 #000000;}
 
-#navcontainer&gt;ul#navlist li a {
+#navcontainer>ul#navlist li a {
                      width: auto;
                      height: auto;
                      height: 8px}
