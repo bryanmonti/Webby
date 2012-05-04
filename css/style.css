@@ -446,42 +446,19 @@ h6.archive-header {
 
 .search-excerpt {margin: 0;}
 
-/***************** COMMENTS ********************/
-h3#comments{
-    margin: 10px 0 0;
-    padding: 20px 10px;
-    background: #f5f5f5;}
-
-h3#comments span.comments-subscribe {
-    float:right;
-    font-size:.7em;
-    margin-left: 3px;
-    padding: 0 0 0 19px;
-    background: url("../images/rss.png") no-repeat 0 50%;
-    color:#cccccc;}
-
-h3#respond{
-    margin: 10px 0 0;
-    padding: 20px 10px;
-    background: #f5f5f5;}
-
-ol.commentlist{
-    list-style-type: none;margin: 0;
-    padding: 0;
-    border-top: 5px solid #eeeeee;}
-
-ol.commentlist li strong{padding-left:1em;}
-
-ol.commentlist li .comment-entry{
-    margin: -135px 0 0;border-bottom: 5px solid #eeeeee;
-    padding: 5px 150px 0;line-height: 2em;}
-
-ol.commentlist li .avatar{
-    border:1px solid #eeeeee;
-    padding:1em;
-    margin:2em 1em 1em 0;}
-
-#commentform{
-    margin: 0 0 7px;padding: 30px 150px 6px;
-    border-top: 10px solid #ffffff;
-    background: #eeeeee;}
+/* CODE VIEWER TESING */
+.code {
+    border: 1px solid #222;
+    background: #2e3238;
+    list-style-position: outside;
+    color: #40aba5;
+    width: 580px;
+    margin: 25px 0 !important;
+    margin-left: 0 !important;
+}
+#main .code li {
+    background: #1e2125;
+    margin: 4px 4px 4px 60px;
+    padding: 2px 2px 2px 12px;
+    font-family: Monaco, "Courier (TT)", "Lucida Sans Unicode", monospace;
+    color: #fff;
