@@ -447,18 +447,65 @@ h6.archive-header {
 .search-excerpt {margin: 0;}
 
 /* CODE VIEWER TESING */
-.code {
+#code {
     border: 1px solid #222;
     background: #2e3238;
     list-style-position: outside;
     color: #40aba5;
-    width: 580px;
-    margin: 25px 0 !important;
-    margin-left: 0 !important;
+    width: 1100px; /*Adjusts the width of code box, change according to textlength */
+    margin: 25px 0;
+    font: 'Tahoma';
 }
-#main .code li {
+/*INDENTING*/
+#code #indent {
+    padding-left: 25px;
+    font: 'Tahoma';
+    size: 12pt;
+}
+
+#code #indent2 {
+    padding-left: 50px;
+}
+
+#code #indent3 {
+    padding-left: 75px;
+}
+
+#code #indent4 {
+    padding-left: 100px;
+}
+
+#code #indent5 {
+    padding-left: 125px;
+}
+
+/* Comment all of this so we know what to use when and where*/
+#code #blue {
+    color: rgb(71, 49, 255);
+}
+
+#code #lightblue {
+    color: #0cf5ff;
+}
+
+#code #red {
+    color: #ff2d25;
+}
+
+#code #green {
+    color: #2ac237;
+}
+
+/*#code li {
     background: #1e2125;
-    margin: 4px 4px 4px 60px;
-    padding: 2px 2px 2px 12px;
-    font-family: Monaco, "Courier (TT)", "Lucida Sans Unicode", monospace;
+              margin-top: 4px;
+              margin-right: 4px;
+              margin-left: 40px;
+              margin-bottom: 4px;
+              padding-top: 2px;
+              padding-right: 2px;
+              padding-left: 12px;
+              padding-bottom: 2px;
+              font-family: Monaco, "Courier New", "Lucida Sans Unicode", monospace;
     color: #fff;
+}*/
